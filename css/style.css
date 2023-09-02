@@ -1,9 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
+/* :root{
+  --primario: red;
+  --fondo: #ffffffff;
+  --degradado: linear-gradient(90deg, rgba(196,148,230,1) 0%, rgba(231,133,207,1) 76%);
+}  */
+
+.contenedor-header {
+  padding: 10% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  width: 100%;
+  background: linear-gradient(rgb(0, 0, 0) 0%,rgba(0, 0, 0, 0.644) 30%,rgba(0, 0, 0, 0));
+}
+
+.contenedor-header h3 {
+  font-size: 1rem;
+}
+
+
+header {
+  background: url(../img/fondo.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header hr {
+  width: 35%;
+}
+
+header h3 {
+  margin-top: 0.5%;
+}
+
+main {
+  bottom: 1px solid red; 
+  margin: 0 auto;
+}
+.introduccion-parrafo {
+  margin-bottom: 5%;
+}
+.articulo h2 {
+  margin-bottom: 5%;
+}
+.articulo {
+  padding: 5% 20%;
+}
+
+.articulo ol {
+  margin-top: 5%;
+}
+
+.articulo li {
+  margin-top: 5%;
+}
+
+.articulo ul {
+  margin-left: 3%;
+}
+
+.span-li {
+  font-weight: bold;
+}
+
+[alt="celula"]{
+  margin: 5% 0;
+  width: 100%;
+}
+
+.span-parrafo2{
+  display: inline-block;
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.separador {
+  margin-bottom: 5%;
+}
+
+footer {
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 1.4rem;
+}
+footer hr {
+  margin-bottom: 1%;
+}
+footer span {
+  margin: 2%;
+}
+
+.footerdiv {
+  margin: 1% 0 1% 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video1,.video2 {
+  width: 100%;
+}
+
+.video2 {
+  display: inline;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.titulo-video{
+  margin-top: 5%;
+}
+
+.articulo hr{
+  margin-top: 10%;
+}
