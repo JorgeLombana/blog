@@ -7,12 +7,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* :root{
-  --primario: red;
-  --fondo: #ffffffff;
-  --degradado: linear-gradient(90deg, rgba(196,148,230,1) 0%, rgba(231,133,207,1) 76%);
-}  */
-
 .contenedor-header {
   padding: 10% 0;
   display: flex;
@@ -28,8 +22,6 @@
 .contenedor-header h3 {
   font-size: 1rem;
 }
-
-
 header {
   background: url(../img/fondo.jpg);
   width: 100%;
